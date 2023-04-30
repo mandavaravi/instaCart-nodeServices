@@ -8,7 +8,7 @@
       "itemPrice": 3,
       "quantity": 4,
       "pricePerQuantity": 16,
-      "sellerId": 2
+      "retailerId": 2
     },
     {
       "itemId": 4,
@@ -18,6 +18,24 @@
       "itemPrice": 4,
       "quantity": 4,
       "pricePerQuantity": 16,
+      "retailerId": 2
+    },
+    {
+      "itemId": 6,
+      "itemName": "Milk",
+      "categoryId": 3,
+      "itemPrice": 4,
+      "quantity": 1,
+      "pricePerQuantity": 4,
+      "sellerId": 2
+    },
+    {
+      "itemId": 6,
+      "itemName": "Milk",
+      "categoryId": 3,
+      "itemPrice": 4,
+      "quantity": 1,
+      "pricePerQuantity": 4,
       "sellerId": 2
     }
   ],
@@ -29,7 +47,7 @@
       "itemPrice": 4,
       "quantity": 1,
       "pricePerQuantity": 4,
-      "sellerId": 2
+      "retailerId": 2
     },
     {
       "itemId": 4,
@@ -38,7 +56,7 @@
       "itemPrice": 4,
       "quantity": 1,
       "pricePerQuantity": 4,
-      "sellerId": 2
+      "retailerId": 2
     }
   ]
 }

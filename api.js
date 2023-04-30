@@ -71,7 +71,7 @@ app.post('/add_update_cart', (req, res) => {
         }
 
         const response = req.body;
-
+        
         if (response.type === "add") {
             existingData[response.userId] = [...existingData[response.userId], ...response.itemList];
             fs.writeFile('./userToCart.json', JSON.stringify(existingData, null, 2), (err) => {

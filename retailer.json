@@ -8,7 +8,7 @@
       "itemPrice": 4,
       "quantity": 4,
       "pricePerQuantity": 16,
-      "sellerId": "0x48FEa6F67f4C401A36b91b956cDBc9E71395722d"
+      "retailerId": "0x48FEa6F67f4C401A36b91b956cDBc9E71395722d"
     },
     {
       "itemId": 4,
@@ -18,7 +18,7 @@
       "itemPrice": 4,
       "quantity": 1,
       "pricePerQuantity": 4,
-      "sellerId": 2
+      "retailerId": 2
     },
     {
       "itemId": 4,
@@ -28,7 +28,7 @@
       "itemPrice": 4,
       "quantity": 4,
       "pricePerQuantity": 16,
-      "sellerId": 2
+      "retailerId": 2
     },
     {
       "itemId": 4,
@@ -38,7 +38,7 @@
       "itemPrice": 4,
       "quantity": 1,
       "pricePerQuantity": 4,
-      "sellerId": 2
+      "retailerId": 2
     }
   ],
   "0xFa983286366Be51f78a0F991Ac9a7cB709674295": [
@@ -50,7 +50,7 @@
       "itemPrice": 4,
       "quantity": 1,
       "pricePerQuantity": 4,
-      "sellerId": "0xFa983286366Be51f78a0F991Ac9a7cB709674295"
+      "retailerId": "0xFa983286366Be51f78a0F991Ac9a7cB709674295"
     }
   ],
   "0x8f31E7ea81de995918b9BeA2c487c7a8526f4D3a": [
@@ -62,7 +62,7 @@
       "itemPrice": 4,
       "quantity": 1,
       "pricePerQuantity": 4,
-      "sellerId": "0x8f31E7ea81de995918b9BeA2c487c7a8526f4D3a"
+      "retailerId": "0x8f31E7ea81de995918b9BeA2c487c7a8526f4D3a"
     }
   ]
 }
