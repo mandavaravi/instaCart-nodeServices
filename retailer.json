@@ -1,0 +1,33 @@
+{
+  "1": [
+    {
+      "itemId": 4,
+      "itemName": "Milk",
+      "categoryId": 3,
+      "itemPrice": 4,
+      "quantity": 4,
+      "pricePerQuantity": 16,
+      "sellerId": 2
+    },
+    {
+      "itemId": 4,
+      "itemName": "Milk",
+      "categoryId": 3,
+      "itemPrice": 4,
+      "quantity": 1,
+      "pricePerQuantity": 4,
+      "sellerId": 2
+    }
+  ],
+  "2": [
+    {
+      "itemId": 4,
+      "itemName": "Milk",
+      "categoryId": 3,
+      "itemPrice": 4,
+      "quantity": 1,
+      "pricePerQuantity": 4,
+      "sellerId": 2
+    }
+  ]
+}

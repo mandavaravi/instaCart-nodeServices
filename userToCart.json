@@ -1,0 +1,23 @@
+{
+    "1": [
+        {
+            "itemId": 1,
+            "itemName": "Eggs",
+            "categoryId": 5,
+            "itemPrice": 3,
+            "quantity": 4,
+            "pricePerQuantity": 16,
+            "sellerId": 2
+        },
+        {
+            "itemId": 4,
+            "itemName": "Milk",
+            "categoryId": 3,
+            "itemPrice": 4,
+            "quantity": 4,
+            "pricePerQuantity": 16,
+            "sellerId": 2
+        }
+    ],
+    "2": []
+}
