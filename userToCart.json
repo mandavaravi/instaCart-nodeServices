@@ -2,6 +2,7 @@
     "1": [
         {
             "itemId": 1,
+            "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
             "itemName": "Eggs",
             "categoryId": 5,
             "itemPrice": 3,
@@ -12,6 +13,7 @@
         {
             "itemId": 4,
             "itemName": "Milk",
+            "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
             "categoryId": 3,
             "itemPrice": 4,
             "quantity": 4,
