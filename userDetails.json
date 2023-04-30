@@ -1,37 +1,22 @@
 {
-  "0": {
-    "userId": 0,
+  "0x67B82548B0d34cBc6d993583d6130e2a5f76C8EA": {
+    "userId": "0x67B82548B0d34cBc6d993583d6130e2a5f76C8EA",
     "userName": "1st user",
     "homeAddress": "1st Addr "
   },
-  "1": {
-    "userId": 1,
+  "0x11aDC0Fd2591D02677d3604cacC83B1F2843513C": {
+    "userId": "0x11aDC0Fd2591D02677d3604cacC83B1F2843513C",
     "userName": "2nd user",
     "homeAddress": "2nd Addr "
   },
-  "2": {
-    "userId": 2,
+  "0x14a1aC3334E112ada66c8D70CE22C8DB69786407": {
+    "userId": "0x14a1aC3334E112ada66c8D70CE22C8DB69786407",
     "userName": "3rd user",
     "homeAddress": "3rd Addr "
   },
-  "3": {
-    "userId": 3,
+  "0xC65945756b653Ce95031121008a509e2BD48F4a9": {
+    "userId": "0xC65945756b653Ce95031121008a509e2BD48F4a9",
     "userName": "4th user",
     "homeAddress": "4th Addr "
-  },
-  "12": {
-    "userId": "12",
-    "userName": "7th user",
-    "homeAddress": "7thnd Addr "
-  },             
-  "13": {
-    "userId": "13",
-    "userName": "7th user",
-    "homeAddress": "7thnd Addr "
-  },
-  "14": {
-    "userId": "14",
-    "userName": "7th Retailer",
-    "homeAddress": "7thnd Addr "
   }
 }

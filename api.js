@@ -1,9 +1,10 @@
 const jsonData = require('./data.json');
-
+const cors = require('cors');
 const express = require('express');
 const fs = require('fs');
 const app = express();
 const port = 3000;
+app.use(cors());
 
 //Middleware to parse JSON payloads
 app.use(express.json());
@@ -358,7 +359,13 @@ app.post('/newUser_Retailer', (req, res) => {
     }
 });
 
+//view all retailers
+app.post('/retailers', (req, res) => {
+    const jsonData = require('./retailerDetails.json');
+    res.send(jsonData);
+});
+
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
-

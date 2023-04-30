@@ -1,44 +1,20 @@
-``{
-  "0": {
-    "retailerId": 0,
+{
+  "0x48FEa6F67f4C401A36b91b956cDBc9E71395722d": {
+    "retailerId": "0x48FEa6F67f4C401A36b91b956cDBc9E71395722d",
     "retailerName": "1st Retailer",
     "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
     "homeAddress": "1st Addr "
   },
-  "1": {
-    "retailerId": 1,
+  "0xFa983286366Be51f78a0F991Ac9a7cB709674295": {
+    "retailerId": "0xFa983286366Be51f78a0F991Ac9a7cB709674295",
     "retailerName": "2nd Retailer",
     "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
     "homeAddress": "2nd Addr "
   },
-  "2": {
-    "retailerId": 2,
+  "0x8f31E7ea81de995918b9BeA2c487c7a8526f4D3a": {
+    "retailerId": "0x8f31E7ea81de995918b9BeA2c487c7a8526f4D3a",
     "retailerName": "3rd Retailer",
     "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
     "homeAddress": "3rd Addr "
-  },
-  "3": {
-    "retailerId": 3,
-    "retailerName": "4th Retailer",
-    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
-    "homeAddress": "4th Addr "
-  },
-  "12": {
-    "retailerId": "12",
-    "retailerName": "7th Retailer",
-    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
-    "homeAddress": "7thnd Addr "
-  },
-  "13": {
-    "retailerId": "13",
-    "retailerName": "7th Retailer",
-    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
-    "homeAddress": "7thnd Addr "
-  },
-  "14": {
-    "retailerId": "14",
-    "retailerName": "7th Retailer",
-    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
-    "homeAddress": "7thnd Addr "
   }
-}``
+}
