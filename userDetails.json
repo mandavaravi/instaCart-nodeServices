@@ -1,0 +1,37 @@
+{
+  "0": {
+    "userId": 0,
+    "userName": "1st user",
+    "homeAddress": "1st Addr "
+  },
+  "1": {
+    "userId": 1,
+    "userName": "2nd user",
+    "homeAddress": "2nd Addr "
+  },
+  "2": {
+    "userId": 2,
+    "userName": "3rd user",
+    "homeAddress": "3rd Addr "
+  },
+  "3": {
+    "userId": 3,
+    "userName": "4th user",
+    "homeAddress": "4th Addr "
+  },
+  "12": {
+    "userId": "12",
+    "userName": "7th user",
+    "homeAddress": "7thnd Addr "
+  },             
+  "13": {
+    "userId": "13",
+    "userName": "7th user",
+    "homeAddress": "7thnd Addr "
+  },
+  "14": {
+    "userId": "14",
+    "userName": "7th Retailer",
+    "homeAddress": "7thnd Addr "
+  }
+}

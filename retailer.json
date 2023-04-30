@@ -21,25 +21,25 @@
       "sellerId": 2
     },
     {
-        "itemId": 4,
-        "itemName": "Pen",
-        "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
-        "categoryId": 3,
-        "itemPrice": 4,
-        "quantity": 4,
-        "pricePerQuantity": 16,
-        "sellerId": 2
-      },
-      {
-        "itemId": 4,
-        "itemName": "tomato",
-        "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
-        "categoryId": 3,
-        "itemPrice": 4,
-        "quantity": 1,
-        "pricePerQuantity": 4,
-        "sellerId": 2
-      }
+      "itemId": 4,
+      "itemName": "Pen",
+      "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+      "categoryId": 3,
+      "itemPrice": 4,
+      "quantity": 4,
+      "pricePerQuantity": 16,
+      "sellerId": 2
+    },
+    {
+      "itemId": 4,
+      "itemName": "tomato",
+      "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+      "categoryId": 3,
+      "itemPrice": 4,
+      "quantity": 1,
+      "pricePerQuantity": 4,
+      "sellerId": 2
+    }
   ],
   "2": [
     {
@@ -64,5 +64,11 @@
       "pricePerQuantity": 4,
       "sellerId": 2
     }
-  ]
+  ],
+  "7": [],
+  "10": [],
+  "12": [],
+  "13": [],
+  "14": [],
+  "110q0": []
 }

@@ -1,0 +1,44 @@
+``{
+  "0": {
+    "retailerId": 0,
+    "retailerName": "1st Retailer",
+    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+    "homeAddress": "1st Addr "
+  },
+  "1": {
+    "retailerId": 1,
+    "retailerName": "2nd Retailer",
+    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+    "homeAddress": "2nd Addr "
+  },
+  "2": {
+    "retailerId": 2,
+    "retailerName": "3rd Retailer",
+    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+    "homeAddress": "3rd Addr "
+  },
+  "3": {
+    "retailerId": 3,
+    "retailerName": "4th Retailer",
+    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+    "homeAddress": "4th Addr "
+  },
+  "12": {
+    "retailerId": "12",
+    "retailerName": "7th Retailer",
+    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+    "homeAddress": "7thnd Addr "
+  },
+  "13": {
+    "retailerId": "13",
+    "retailerName": "7th Retailer",
+    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+    "homeAddress": "7thnd Addr "
+  },
+  "14": {
+    "retailerId": "14",
+    "retailerName": "7th Retailer",
+    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+    "homeAddress": "7thnd Addr "
+  }
+}``
