@@ -13,7 +13,6 @@ app.use(express.json());
 // POST endpoint to send JSON data
 app.post('/api/data', (req, res) => {
     const jsonData = req.body;
-    console.log(jsonData);
     res.send(jsonData);
 });
 
@@ -48,7 +47,7 @@ app.post('/api/data1', (req, res) => {
                 console.error(err);
                 return res.status(500).send('Error writing file');
             }
-            console.log('Data appended to file');
+            // console.log('Data appended to file');
             res.send('Data appended to file');
         });
     });
@@ -98,8 +97,10 @@ app.post('/add_update_cart', (req, res) => {
                 res.send('Data updated in file');
             });
         } else if (response.type === "delete") {
+            // console.log(JSON.stringify(response) +" ::  "+existingData[response.userId]);
             filteredItems = existingData[response.userId].filter(item => item.itemId !== response.itemId);
             existingData[response.userId] = filteredItems;
+            console.log(JSON.stringify(existingData[response.userId]) );
             fs.writeFile('./userToCart.json', JSON.stringify(existingData, null, 2), (err) => {
                 if (err) {
                     console.error(err);
@@ -136,7 +137,8 @@ app.post('/add_update_inv', (req, res) => {
         const response = req.body;
 
         if (response.type === "add") {
-            existingData[response.retailerId] = [...existingData[response.retailerId], ...response.itemList];
+            const temp = response.retailerId;
+            existingData[temp] = [...existingData[temp], ...response.itemList];
             fs.writeFile('./retailer.json', JSON.stringify(existingData, null, 2), (err) => {
                 if (err) {
                     console.error(err);
@@ -146,10 +148,12 @@ app.post('/add_update_inv', (req, res) => {
                 res.send('Data appended to file');
             });
         } else if (response.type === "update") {
+            console.log(response);
             for (let i = 0; i < existingData[response.retailerId].length; i++) {
-                if (existingData[response.retailerId][i].itemId === response.itemId) {
-                    existingData[response.retailerId][i].quantity = response.quantity;
-                    existingData[response.retailerId][i].pricePerQuantity = response.pricePerQuantity;
+                if (existingData[response.retailerId][i].itemId === response.itemList[0].itemId) {
+                    console.log('###');
+                    existingData[response.retailerId][i].quantity = response.itemList[0].quantity;
+                    existingData[response.retailerId][i].pricePerQuantity = response.itemList[0].pricePerQuantity;
                 }
             }
             fs.writeFile('./retailer.json', JSON.stringify(existingData, null, 2), (err) => {
@@ -161,7 +165,7 @@ app.post('/add_update_inv', (req, res) => {
                 res.send('Data updated in file');
             });
         } else if (response.type === "delete") {
-            filteredItems = existingData[response.retailerId].filter(item => item.itemId !== response.itemId);
+            filteredItems = existingData[response.retailerId].filter(item => item.itemId !== response.itemList[0].itemId);
             existingData[response.retailerId] = filteredItems;
             fs.writeFile('./retailer.json', JSON.stringify(existingData, null, 2), (err) => {
                 if (err) {

@@ -39,6 +39,15 @@
       "quantity": 1,
       "pricePerQuantity": 4,
       "retailerId": 2
+    },
+    {
+      "itemId": 4,
+      "itemName": "Milk",
+      "categoryId": 3,
+      "itemPrice": 4,
+      "quantity": 1,
+      "pricePerQuantity": 4,
+      "retailerId": "0x48FEa6F67f4C401A36b91b956cDBc9E71395722d"
     }
   ],
   "0xFa983286366Be51f78a0F991Ac9a7cB709674295": [
@@ -51,18 +60,50 @@
       "quantity": 1,
       "pricePerQuantity": 4,
       "retailerId": "0xFa983286366Be51f78a0F991Ac9a7cB709674295"
+    },
+    {
+      "itemId": 12,
+      "itemName": "12th item",
+      "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+      "itemPrice": 2,
+      "quantity": 15,
+      "categoryId": "102",
+      "retailerId": "0xFa983286366Be51f78a0F991Ac9a7cB709674295",
+      "pricePerQuantity": 30
     }
   ],
-  "0x8f31E7ea81de995918b9BeA2c487c7a8526f4D3a": [
+  "0x8f31E7ea81de995918b9BeA2c487c7a8526f4D3a": [],
+  "undefined": [],
+  "0x67B82548B0d34cBc6d993583d6130e2a5f76C8EA": [
     {
-      "itemId": 4,
-      "itemName": "Milk",
+      "itemId": 1,
+      "itemName": "1st item",
       "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
-      "categoryId": 3,
-      "itemPrice": 4,
+      "itemPrice": 2,
+      "quantity": 111,
+      "categoryId": "102",
+      "retailerId": "0x67B82548B0d34cBc6d993583d6130e2a5f76C8EA",
+      "pricePerQuantity": 222
+    },
+    {
+      "itemId": 2,
+      "itemName": "1st item",
+      "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+      "itemPrice": 2,
       "quantity": 1,
-      "pricePerQuantity": 4,
-      "retailerId": "0x8f31E7ea81de995918b9BeA2c487c7a8526f4D3a"
+      "categoryId": "102",
+      "retailerId": "0x67B82548B0d34cBc6d993583d6130e2a5f76C8EA",
+      "pricePerQuantity": 2
+    },
+    {
+      "itemId": 24,
+      "itemName": "12th item",
+      "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+      "itemPrice": 3,
+      "quantity": 67,
+      "categoryId": "102",
+      "retailerId": "0x67B82548B0d34cBc6d993583d6130e2a5f76C8EA",
+      "pricePerQuantity": 201
     }
   ]
 }

@@ -13,8 +13,14 @@
   },
   "0x8f31E7ea81de995918b9BeA2c487c7a8526f4D3a": {
     "retailerId": "0x8f31E7ea81de995918b9BeA2c487c7a8526f4D3a",
-    "retailerName": "3rd Retailer",
+    "retailerName": "5th Retailer",
     "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
-    "homeAddress": "3rd Addr "
+    "homeAddress": "57MontroseAve"
+  },
+  "0x67B82548B0d34cBc6d993583d6130e2a5f76C8EA": {
+    "retailerId": "0x67B82548B0d34cBc6d993583d6130e2a5f76C8EA",
+    "retailerName": "12th item",
+    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+    "homeAddress": "some addr"
   }
 }

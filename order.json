@@ -9,11 +9,31 @@
         "itemPrice": 4,
         "quantity": 4,
         "pricePerQuantity": 16,
+        "retailerId": "0x48FEa6F67f4C401A36b91b956cDBc9E71395722d"
+      },
+      {
+        "itemId": 4,
+        "itemName": "eggs",
+        "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+        "categoryId": 3,
+        "itemPrice": 4,
+        "quantity": 1,
+        "pricePerQuantity": 4,
         "retailerId": 2
       },
       {
         "itemId": 4,
         "itemName": "Milk",
+        "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+        "categoryId": 3,
+        "itemPrice": 4,
+        "quantity": 4,
+        "pricePerQuantity": 16,
+        "retailerId": "0x48FEa6F67f4C401A36b91b956cDBc9E71395722d"
+      },
+      {
+        "itemId": 4,
+        "itemName": "eggs",
         "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
         "categoryId": 3,
         "itemPrice": 4,
@@ -31,7 +51,7 @@
         "itemPrice": 4,
         "quantity": 4,
         "pricePerQuantity": 16,
-        "retailerId": 2
+        "retailerId": "0x48FEa6F67f4C401A36b91b956cDBc9E71395722d"
       },
       {
         "itemId": 4,
@@ -41,7 +61,7 @@
         "itemPrice": 4,
         "quantity": 1,
         "pricePerQuantity": 4,
-        "retailerId": 2
+        "retailerId": "0x48FEa6F67f4C401A36b91b956cDBc9E71395722d"
       }
     ],
     "20": [
@@ -52,7 +72,7 @@
         "itemPrice": 4,
         "quantity": 1,
         "pricePerQuantity": 4,
-        "retailerId": 2
+        "retailerId": "0x48FEa6F67f4C401A36b91b956cDBc9E71395722d"
       }
     ],
     "22": [
@@ -63,31 +83,7 @@
         "itemPrice": 4,
         "quantity": 1,
         "pricePerQuantity": 4,
-        "retailerId": 2
-      }
-    ]
-  },
-  "0x11aDC0Fd2591D02677d3604cacC83B1F2843513C": {
-    "1": [
-      {
-        "itemId": 4,
-        "itemName": "Milk",
-        "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
-        "categoryId": 3,
-        "itemPrice": 4,
-        "quantity": 4,
-        "pricePerQuantity": 16,
-        "retailerId": 2
-      },
-      {
-        "itemId": 4,
-        "itemName": "Milk",
-        "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
-        "categoryId": 3,
-        "itemPrice": 4,
-        "quantity": 1,
-        "pricePerQuantity": 4,
-        "retailerId": 2
+        "retailerId": "0x48FEa6F67f4C401A36b91b956cDBc9E71395722d"
       }
     ]
   }
