@@ -1,4 +1,9 @@
 {
+  "0": {
+    "userId": 0,
+    "userName": "adf",
+    "homeAddress": "afdfd"
+  },
   "0x67B82548B0d34cBc6d993583d6130e2a5f76C8EA": {
     "userId": "0x67B82548B0d34cBc6d993583d6130e2a5f76C8EA",
     "userName": "1st user",

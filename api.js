@@ -72,7 +72,10 @@ app.post('/add_update_cart', (req, res) => {
         const response = req.body;
         
         if (response.type === "add") {
-            existingData[response.userId] = [...existingData[response.userId], ...response.itemList];
+            if(existingData[response.userId] == undefined){
+                existingData[''+response.userId] = [];
+            }
+            existingData[''+response.userId] = [...existingData[''+response.userId], ...response.itemList];
             fs.writeFile('./userToCart.json', JSON.stringify(existingData, null, 2), (err) => {
                 if (err) {
                     console.error(err);
@@ -106,7 +109,7 @@ app.post('/add_update_cart', (req, res) => {
                     console.error(err);
                     return res.status(500).send('Error writing file');
                 }
-                console.log('Data deleted in file');
+                console.log('Data deleted in file - cart');
                 res.send('Data deleted in file');
             });
         }
@@ -137,7 +140,11 @@ app.post('/add_update_inv', (req, res) => {
         const response = req.body;
 
         if (response.type === "add") {
+
             const temp = response.retailerId;
+            if(existingData[temp] == undefined){
+                existingData[''+temp] = [];
+            }
             existingData[temp] = [...existingData[temp], ...response.itemList];
             fs.writeFile('./retailer.json', JSON.stringify(existingData, null, 2), (err) => {
                 if (err) {
@@ -172,7 +179,7 @@ app.post('/add_update_inv', (req, res) => {
                     console.error(err);
                     return res.status(500).send('Error writing file');
                 }
-                console.log('Data deleted in file');
+                console.log('Data deleted in file - inv');
                 res.send('Data deleted in file');
             });
         } else if (response.type === "viewinv") {
@@ -204,6 +211,13 @@ app.post('/order', (req, res) => {
         const response = req.body;
         //after order completes
         if (response.type === "add") {
+            console.log(existingData[response.userId] ==undefined);
+            [response.orderId]
+            if(existingData[response.userId] == undefined){
+                existingData[''+response.userId] = {};
+                
+            }
+
             existingData[response.userId][response.orderId] = response.itemList;
             fs.writeFile('./order.json', JSON.stringify(existingData, null, 2), (err) => {
                 if (err) {

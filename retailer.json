@@ -105,5 +105,17 @@
       "retailerId": "0x67B82548B0d34cBc6d993583d6130e2a5f76C8EA",
       "pricePerQuantity": 201
     }
+  ],
+  "0xD8946B60d860F2d955aFAAc110c5F544739c7a46": [
+    {
+      "itemId": 11,
+      "itemName": "11th item",
+      "itemImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+      "itemPrice": 1,
+      "quantity": 27,
+      "categoryId": "102",
+      "retailerId": "0xD8946B60d860F2d955aFAAc110c5F544739c7a46",
+      "pricePerQuantity": 27
+    }
   ]
 }

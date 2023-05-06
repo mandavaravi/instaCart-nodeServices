@@ -22,5 +22,11 @@
     "retailerName": "12th item",
     "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
     "homeAddress": "some addr"
+  },
+  "0xD8946B60d860F2d955aFAAc110c5F544739c7a46": {
+    "retailerId": "0xD8946B60d860F2d955aFAAc110c5F544739c7a46",
+    "retailerName": "latest ret",
+    "retailerImage": "https://i.pinimg.com/originals/66/f7/72/66f77296282b5ab7c2780724802614c0.png",
+    "homeAddress": "latest addr"
   }
 }
